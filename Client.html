@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client</title>
+</head>
+<style>
+  img{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+     
+  }
+  .item{
+    display: grid;
+    grid-template-columns: repeat(3,1f);
+    padding: 30px 20px;
+    grid-column-gap: 5px;
+    margin-left: 35px;
+      
+     
+    
+    
+  
+  }
+  .item img{
+    width: 100%;
+    height: 300px;
+    object-fit:fill;
+    cursor: pointer;
+    transition: 0.2s ease;
+     
+  }
+  .item img:hover{
+  transform: scale(1.04);
+  }
+  .item h3{
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
+  }
+  .item h4{
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
+  }
+  .item button{
+  padding: 5px 30px;
+  border:none;
+  outline:none;
+  background-color: green;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  transition: 0.2s all;
+  
+  }
+
+  .item button:hover{
+    transform: scale(1.08);
+    } 
+
+h2{
+  color: blue;
+  text-align: center;
+  font-family: cursive;
+  
+}
+</style>
+      <h2>Pick Your Favorite celebrities of the year</h2>
+<body>
+    <div class="items">
+        <div style="display:flex;">
+         <div class="item"> 
+         <img src="MBJ1.jpg" alt="Image.jpg">
+         <h3>Long sleeve for men</h3>
+         <h4>56$</h4>
+          
+                <button>Pick yours</button>
+         
+       </div>
+       <div class="item">
+         <img src="MBJ2.jpg" alt="Image.jpg">
+         <h3>Women outfit set</h3>
+         <h4>207$</h4>
+         <button>Pick yours</button>
+       </div>
+       <div class="item"> 
+         <img src="MBJ3.jpg" alt="Image.jpg">
+         <h3>Boys outfit</h3>
+         <h4>37$</h4>
+         <button>Pick yours</button>
+     
+       </div>
+         <div class="item">
+         <img src="Starz.PNG" alt="Image.jpg">
+         <h3>Latest sneaker for Men</h3>
+         <h4>50$</h4>
+         <button>Pick yours</button>
+</body>
+</html>
