@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill in form</title>
+</head>
+<style>
+     h2{
+        color: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+     }
+
+      body{
+        background-image: url(PHOTO.jpg);
+      }
+
+
+
+    *{
+    Padding:0;
+    margin:0;
+    box-sizing: border-box;
+    }
+
+
+  .menu-bar{
+  background-color: green;
+  text-align: center;
+}
+
+.menu-bar ul{
+     display: inline-flex;
+     list-style: none;
+     color:white;
+}
+.menu-bar ul li{
+   width: 120px;
+   margin: 15px;
+   padding: 15px;
+}
+
+.menu-bar ul li a{
+  text-decoration: none;
+  color:white
+}
+
+.active .menu-bar ul li:hover{
+            background-color: red;
+            border-radius: 3px;
+            
+
+}
+
+.active, .menu-bar ul li:hover{
+  background: #0d2aab;
+  border-radius: 3px;
+  
+}
+
+
+
+</style>
+<body>
+  <div class="menu-bar">
+    <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="Client.html">Client</a></li>
+    <li><a href="#">Invester</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Traning</a></li>
+    <li><a href="#">contact</a></li>
+    <li><a href="#">Fill Form</a></li>
+    </ul>
+    </div>
+    <form action="" method="get">
+        <h2>Fill in the below form with your rightful Information below </h2>
+
+        <span style="color:blue"><label for="fullname">Name:</label><br></span>
+  <input type="text" name="fullname" id="fullname" placeholder="Your Name" style=" width:25%; height:25px;  border-radius: 10px;"><br><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" name="email" id="email" placeholder="Your@email.com" style=" width:25%; height:25px; border-radius: 10px;"><br><br>
+  
+  <label for="website">Website:</label><br>
+  <input type="website" name="website" id="website" style=" width:25%; height:25px; border-radius: 10px;"><br><br>
+  
+  <label for="subject">Subject:</label><br>
+  <input type="subject" name="subject" id="subject" placeholder="I just want to say hello" style=" width:25%; height:25px;  border-radius: 10px;"><br><br>
+
+   <label for="County">County of orgin</label>
+          <select name="County" id="county">
+            <option value=""></option>
+            <option value="">Bomi county</option>
+            <option value="">Grand cape mount county</option>
+            <option value="">Gbarpolu county</option>
+            <option value="">Nimba county</option>
+            <option value="">Montserrado</option>
+            <option value="">Maryland county</option>
+            <option value="">Lofa county</option>
+            <option value="">Grand Gedeh county</option>
+            <option value="">Grand Bassa county</option>
+            <option value="">Rivercess county</option>
+            <option value="">Rivergee County</option>
+            <option value="">Marigibi county</option>
+            <option value="">Bong county</option>
+            <option value="">Sinoe county</option>
+            <option value="">Bopolu</option>
+          </select><br><br>
+  
+       <label for="Education Status">Education status</label>
+           <select name="Education status" id="education status">
+            <option value=""></option>
+            <option value="">High school Diploma</option>
+            <option value="">Bsc degree</option>
+            <option value="">Master</option>
+            <option value="">AA degree</option>
+           </select><br>
+       <label for="CV">Upload CV</label>
+       <input type="File" name="CV" id="CV">
+       <br>
+  
+  <label for="message">Message:</label><br>
+  <input type="message" name="message" id="message" placeholder="Write your message here, please." style=" width:25%; height:40px; border-radius: 10px;"><br><br>
+  
+ 
+  <a href="momobjackson976@gmail.com"><button type="submit" style="margin:0% 45%; color: white; background: green" >Send Infomation!</button></a>
+
+
+
+    </form>
+</body>
+</html>
